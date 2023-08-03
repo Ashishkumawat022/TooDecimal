@@ -1,0 +1,11 @@
+export { default as homeBanner } from "./homeBanner.png";
+export { default as nike } from "./nike.png";
+export { default as starBuks } from "./starBuks.png";
+export { default as Pinterest} from "./Pinterest.svg";
+export { default as pintrest2} from "./pintrest2.svg";
+export { default as pwa} from "./pwa.svg";
+export { default as vue} from "./vue.svg";
+export { default as sass} from "./sass.svg";
+export { default as client} from "./client.png";
+export { default as layer} from "./layer.png";
+export { default as webMenu} from "./webMenu.svg";

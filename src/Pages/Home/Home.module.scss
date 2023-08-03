@@ -1,0 +1,706 @@
+.homeBanner {
+  position: relative;
+  background-image: url("../../assets/images/homeBanner.png");
+  width: 100% !important;
+  height: 800px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+
+  .bannerLeft {
+    background-color: rgba(255, 255, 255, 0.44);
+    width: 832px;
+    height: 494px;
+    top: 200px;
+    position: absolute;
+    left: 0;
+  }
+  .bannerHeading {
+    position: absolute;
+    top: 220px;
+    font-family: "Playfair Display" !important;
+    h1 {
+      font-weight: 689;
+      font-size: 102px;
+      line-height: 120px;
+      letter-spacing: -0.015em;
+      color: #301e4e;
+
+      span {
+        color: #b7364a;
+      }
+    }
+
+    p {
+      margin: 0px;
+      font-weight: 400;
+      font-size: 54px;
+      line-height: 65px;
+      color: #301e4e;
+    }
+  }
+}
+
+.whoWeAre {
+  padding: 180px 0px;
+
+  .heading {
+    font-family: "Playfair Display" !important;
+    h3 {
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 33px;
+      color: #463366;
+    }
+  }
+  .compnanyDetail {
+    font-family: "Source Sans Pro";
+    h5 {
+      font-family: "Playfair Display" !important;
+      font-weight: 900;
+      font-size: 99px;
+      line-height: 132px;
+      letter-spacing: -0.015em;
+      color: #463366;
+    }
+    p {
+      margin: 0px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 44px;
+      letter-spacing: 0.0025em;
+      color: #494949;
+      padding-bottom: 45px;
+    }
+    a {
+      background: #301e4e;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 0.0125em;
+      text-transform: uppercase;
+      color: #ffffff;
+      border-radius: 12px;
+      padding: 15px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
+.layerSec {
+  position: relative;
+  padding: 260px 0px;
+
+  .layerImg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 760px;
+  }
+
+  .heading {
+    h5 {
+      font-weight: 700;
+      font-size: 99px;
+      line-height: 132px;
+      letter-spacing: -0.015em;
+      color: #301e4e;
+      font-family: "Playfair Display" !important;
+    }
+    p {
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 44px;
+      letter-spacing: 0.0025em;
+      margin: 0px;
+      color: #0c0525;
+      font-family: "Source Sans Pro";
+    }
+  }
+
+  .toList {
+    padding-left: 14px;
+    ul {
+      margin: 0px;
+      font-family: "Source Sans Pro";
+      li {
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 100px;
+        letter-spacing: -0.005em;
+        color: #301e4e;
+
+        list-style: none;
+
+        a {
+          background: #301e4e;
+          border-radius: 12px;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: 0.0125em;
+          text-transform: uppercase;
+          color: #ffffff;
+          padding: 15px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.ourWork_sec {
+  background: #301e4e;
+  padding: 60px 0px;
+
+  .mobileBtn {
+    display: none;
+    padding-top: 40px;
+    width: 100%;
+
+    a {
+      font-family: "Source Sans Pro";
+      background-color: #ff6e6c;
+      color: #fff;
+      padding: 15px 126px;
+      border-radius: 12px;
+      font-size: 20px;
+      
+    }
+  }
+  .heading {
+    padding-bottom: 40px;
+    h3 {
+      font-weight: 689;
+      font-size: 99px;
+      line-height: 132px;
+      letter-spacing: -0.015em;
+      color: #e2daeb;
+      font-family: "Playfair Display";
+      margin-bottom: 25px;
+    }
+    a {
+      padding: 18px 22px;
+      background: #ff6e6c;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 0.0125em;
+      color: #ffffff;
+      font-family: "Source Sans Pro";
+      text-decoration: none;
+    }
+  }
+
+  .productDetails {
+    img {
+      width: 100%;
+    }
+
+    .description {
+      margin-top: 10px;
+
+      span {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: 0.005em;
+        color: #ff6e6c;
+        font-family: "Source Sans Pro";
+      }
+
+      h5 {
+        font-weight: 400;
+        font-size: 49px;
+        line-height: 65px;
+        color: #e7d7f6;
+        margin: 20px 0px;
+        font-family: "Playfair Display";
+      }
+
+      p {
+        margin: 0px;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 44px;
+        letter-spacing: 0.0025em;
+        color: #ffffff;
+        font-family: "Source Sans Pro";
+      }
+    }
+  }
+}
+
+.ourpartner_sec {
+  padding: 40px 0px;
+  .heading {
+    h3 {
+      font-family: "Playfair Display";
+      font-weight: 689;
+      font-size: 99px;
+      line-height: 132px;
+      letter-spacing: -0.015em;
+      color: #301e4e;
+    }
+    h5 {
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 44px;
+      letter-spacing: 0.0025em;
+      color: #ff6e6c;
+      font-family: "Source Sans Pro";
+    }
+  }
+
+  .partnersList {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    padding: 40px 0px;
+    margin: 0px !important;
+
+    .listDetails {
+      text-align: center;
+      .imgBox {
+        height: 164px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h5 {
+        margin: 0px;
+        font-family: "Playfair Display";
+      }
+    }
+  }
+}
+
+.testimonials {
+  padding: 60px 0px;
+  .heading {
+    h3 {
+      font-family: "Playfair Display";
+      font-weight: 689;
+      font-size: 99px;
+      line-height: 132px;
+      letter-spacing: -0.015em;
+      color: #301e4e;
+      padding-bottom: 80px;
+    }
+  }
+
+  .testimonialsBox {
+    display: flex;
+    gap: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    padding: 40px 15px;
+
+    .userImg {
+      width: 168px !important;
+      height: 168px !important;
+    }
+    .clientDetails {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      font-family: "Playfair Display";
+      h5 {
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 83px;
+        letter-spacing: -0.005em;
+        color: #301e4e;
+      }
+
+      .username {
+        text-align: left;
+        padding-top: 20px;
+
+        h6 {
+          font-weight: 400;
+          font-size: 49px;
+          line-height: 65px;
+          color: #301e4e;
+        }
+        p {
+          margin: 0px;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 33px;
+
+          color: #ff6e6c;
+        }
+      }
+      &:before {
+        content: "";
+        content: "";
+        border-bottom: 2px solid #301e4e;
+        position: absolute;
+        /* z-index: 99; */
+        top: 224px;
+        right: 270px;
+        width: 148px;
+      }
+    }
+  }
+
+  :global(.owl-carousel) {
+    :global(.owl-dots) {
+      display: flex;
+      position: absolute;
+      left: 44%;
+      top: 75%;
+      margin: 0;
+      margin-top: 18px;
+    
+      border-radius: 10px !important;
+
+      
+      button {
+        width: 50px;
+        height: 30px;
+       
+        font-size: 22px !important;
+        font-weight: bold !important;
+        display: flex !important;
+        justify-content: center;
+       
+        align-items: center;
+        transition: 0.5s !important;
+
+        &:hover {
+          // background: var(--Main2) !important;
+          // color: #738801 !important;
+        }
+        &:focus{
+          outline: none !important;
+          box-shadow: none !important;
+        }
+
+        span {
+          width: 100%;
+          height: 13px;
+          margin: 0px 0px !important;
+          margin-right: 5px !important;
+          background:#463366 !important;
+          display: block;
+          -webkit-backface-visibility: visible;
+          transition: opacity 200ms ease;
+          color: #fff !important;
+
+          &:hover {
+            background: #a17fc9 !important;
+            color:  #fff !important;
+          }
+          &:active{
+            // color: red !important;
+            // background: green !important;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.driveResult {
+  background: #301e4e;
+  padding: 60px 0px;
+  margin-bottom: 15px;
+
+  h5 {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 689;
+    font-size: 99px;
+    line-height: 132px;
+    letter-spacing: -0.015em;
+    color: #a17fc9;
+  }
+  a {
+    color: #ff6e6c;
+    text-decoration: underline;
+  }
+}
+
+/*=======================================================
+//////////////RESPONSIVE MEDIA QUERY START///////////////
+=======================================================*/
+
+@media (max-width: 991px) {
+  .homeBanner {
+    width: 100% !important;
+    height: 400px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+
+    .bannerLeft {
+      background-color: rgba(255, 255, 255, 0.44);
+      width: 100%;
+      height: 100px !important;
+      top: 16px !important;
+      position: absolute;
+      left: 0;
+    }
+    .bannerHeading {
+      position: absolute;
+      top: 20px;
+      h1 {
+        font-size: 39px !important;
+        line-height: 62px !important;
+      }
+
+      p {
+        font-size: 19px !important;
+        line-height: 15px;
+        color: #301e4e;
+      }
+    }
+  }
+
+  .whoWeAre {
+    padding: 20px 0px !important;
+
+    .heading {
+      h3 {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        color: #463366;
+      }
+    }
+    .compnanyDetail {
+      h5 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 62px;
+        letter-spacing: -0.015em;
+        color: #463366;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+
+        padding-bottom: 45px;
+      }
+      a {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 15px 42px;
+      }
+    }
+  }
+  .layerSec {
+    position: relative;
+    padding: 30px 0px;
+
+    .layerSecmobile {
+      background: #e7d7f6;
+      height: 190px;
+      width: 100%;
+      position: absolute;
+    }
+    .layerImg {
+      display: none !important;
+    }
+
+    .heading {
+      // background-color: #E7D7F6;
+      color: #301e4e;
+      padding-bottom: 10px;
+      h5 {
+        font-size: 36px;
+        line-height: 62px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 24px;
+
+        br {
+          display: none;
+        }
+      }
+    }
+
+    .toList {
+      padding-left: 0px !important;
+      ul {
+        margin: 0px;
+        padding: 0px;
+        margin-top: 40px;
+        li {
+          font-size: 42px;
+          line-height: 63px;
+
+          &:last-child {
+            margin-top: 20px;
+          }
+          a {
+            font-size: 20px;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .ourWork_sec {
+    background: #301e4e;
+    padding: 50px 0px;
+
+    .mobileBtn {
+      display: block !important;
+    }
+    .heading {
+      padding: 10px 0px;
+      h3 {
+        font-size: 36px;
+        line-height: 62px;
+      }
+      a {
+        display: none;
+      }
+    }
+
+    .productDetails {
+      img {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      .description {
+        margin-top: 10px;
+
+        span {
+          font-size: 16px;
+        }
+
+        h5 {
+          font-size: 39px;
+          line-height: 35px;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+
+  .ourpartner_sec {
+    padding: 40px 0px;
+    .heading {
+      h3 {
+        font-size: 36px;
+        line-height: 62px;
+      }
+      h5 {
+        font-size: 25px;
+        line-height: 24px;
+      }
+    }
+
+    .partnersList {
+      display: grid;
+      grid-gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+      padding: 40px 0px;
+      margin: 0px !important;
+
+      .listDetails {
+        text-align: center;
+        padding: 10px;
+        .imgBox {
+          height: 124px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 40px;
+          }
+        }
+        h5 {
+          margin: 0px;
+        }
+      }
+    }
+  }
+
+  .testimonials {
+    padding: 40px 0px;
+    .heading {
+      h3 {
+        font-size: 46px;
+        line-height: 62px;
+
+        padding-bottom: 80px;
+      }
+    }
+
+    .testimonialsBox {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 40px 15px;
+      justify-content: center;
+
+      .userImg {
+        width: 138px !important;
+        height: 138px !important;
+      }
+      .clientDetails {
+        align-items: start;
+        h5 {
+          font-size: 22px;
+          line-height: 43px;
+        }
+
+        .username {
+          text-align: left;
+          padding-top: 0px;
+
+          h6 {
+            font-size: 32px;
+            line-height: 45px;
+          }
+          p {
+            margin: 0px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23px;
+
+            br {
+              display: none;
+            }
+          }
+        }
+        &:before {
+          content: "";
+          display: none !important;
+        }
+      }
+    }
+    
+  :global(.owl-carousel) {
+    :global(.owl-dots) {
+      display: none !important;
+           }
+    }
+  
+  }
+
+  .driveResult {
+    h5 {
+      font-size: 49px;
+      line-height: 86px;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+.footer {
+  background: #301e4e;
+  padding: 50px 0px;
+
+  .logo {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 0.0025em;
+    color: #ffffff;
+    font-family: "Playfair Display" !important;
+  }
+  .pages {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0px;
+      padding: 0px 10px;
+      align-items: center;
+      justify-content: space-between;
+
+      li {
+        list-style: none;
+
+        a {
+          color: #fff;
+          cursor: pointer;
+          font-family: "Playfair Display" !important;
+        }
+      }
+    }
+  }
+  .copyRight {
+    p {
+      margin: 0px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: 0.004em;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+  .socialLink {
+    ul {
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      li {
+        list-style: none;
+
+        a {
+          cursor: pointer;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/*=======================================================
+//////////////RESPONSIVE MEDIA QUERY START///////////////
+=======================================================*/
+
+@media (max-width: 991px) {
+  .footer {
+    
+    .logo {
+      padding: 5px 5px;
+    }
+    .pages {
+      ul {
+        li {
+          line-height: 60px;
+          width: 50%;
+          a {
+            font-size: 24px;
+            font-weight: 400 !important;
+          
+          }
+        }
+      }
+    }
+    .copyRight {
+      p {
+        margin-top: 20px;
+      }
+    }
+    .socialLink {
+      ul {
+        margin-top: 20px;
+        gap: 40px;
+        padding: 0px;
+        li {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
